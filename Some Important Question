@@ -1,0 +1,13 @@
+///////////////////////Q>Why we are using EntityFrameworkcore ,if .netcore become .net after .net5
+.NET Core used to be a separate version of .NET, but starting from .NET 5, it became the main version of .NET and is just called .NET (no more "Core" in the name).
+
+However, when it comes to Entity Framework, there are still two different versions:
+
+Entity Framework Core (EF Core) – the newer, modern version built for .NET Core and now .NET 5+.
+Entity Framework 6 (EF6) – the older version that was built for the older .NET Framework (mainly for Windows-based apps).
+The key point is that EF Core (even though it has "Core" in the name) is the newer, better ORM and is the one you should use with .NET 5+, whereas EF6 is for older projects that still use the old .NET Framework.
+
+In short:
+
+EF Core = modern, fast, cross-platform (use this for new .NET 5+ apps).
+EF6 = older, legacy (mainly for older .NET Framework apps).
